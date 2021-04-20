@@ -1,0 +1,25 @@
+{
+  "name": "apiCrud",
+  "version": "1.0.0",
+  "description": "api crud",
+  "main": "api.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Welington156/apiCrud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Welington156/apiCrud/issues"
+  },
+  "homepage": "https://github.com/Welington156/apiCrud#readme"
+}
