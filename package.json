@@ -1,25 +1,19 @@
 {
-  "name": "apiCrud",
+  "name": "portfolio-api",
   "version": "1.0.0",
-  "description": "api crud",
-  "main": "api.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "description": "API de portfólio com Node.js e Express",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node api"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Welington156/apiCrud.git"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Welington156/apiCrud/issues"
-  },
-  "homepage": "https://github.com/Welington156/apiCrud#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
